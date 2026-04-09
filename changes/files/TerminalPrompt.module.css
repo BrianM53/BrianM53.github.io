@@ -1,0 +1,36 @@
+.prompt {
+  font-family: var(--font-mono), monospace;
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.path {
+  color: var(--green-dim);
+}
+
+.dollar {
+  color: var(--green);
+}
+
+.cmd {
+  color: var(--text);
+}
+
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: var(--green);
+  animation: blink 1s step-end infinite;
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
