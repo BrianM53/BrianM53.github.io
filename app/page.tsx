@@ -23,7 +23,7 @@ const experience = [
     current: false,
   },
   {
-    role: "Data Center Engineer Intern",
+    role: "Data Center Engineer",
     company: "Tetra Pak",
     period: "2024",
     location: "denton, tx",
@@ -31,7 +31,7 @@ const experience = [
     current: false,
   },
     {
-    role: "Software Engineer Intern",
+    role: "Software Engineer",
     company: "IDLife Corporate",
     period: "2023",
     location: "frisco, tx",
